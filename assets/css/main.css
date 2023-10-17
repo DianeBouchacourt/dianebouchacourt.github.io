@@ -215,7 +215,7 @@ input, select, textarea {
 	}
 
 	h3 {
-		font-size: 1.25em;
+		font-size: 1.2em;
 	}
 
 	h4 {
@@ -3093,19 +3093,19 @@ input, select, textarea {
 				font-size: 3.25em;
 			}
 
-			#header.alt > * {
-				-moz-transition: opacity 3s ease;
-				-webkit-transition: opacity 3s ease;
-				-ms-transition: opacity 3s ease;
-				transition: opacity 3s ease;
-				-moz-transition-delay: 0.5s;
-				-webkit-transition-delay: 0.5s;
-				-ms-transition-delay: 0.5s;
-				transition-delay: 0.5s;
-				opacity: 1;
-			}
+			/* #header.alt > * { */
+				/* -moz-transition: opacity 3s ease; */
+				/* -webkit-transition: opacity 3s ease; */
+				/* -ms-transition: opacity 3s ease; */
+				/* transition: opacity 3s ease; */
+				/* -moz-transition-delay: 0s;
+				-webkit-transition-delay: 0s;
+				-ms-transition-delay: 0s;
+				transition-delay: 0s; */
+				/* opacity: 1; */
+			/* } */
 
-			#header.alt .logo {
+			/* #header.alt .logo {
 				-moz-transition: opacity 1.25s ease, -moz-transform 0.5s ease;
 				-webkit-transition: opacity 1.25s ease, -webkit-transform 0.5s ease;
 				-ms-transition: opacity 1.25s ease, -ms-transform 0.5s ease;
@@ -3122,7 +3122,7 @@ input, select, textarea {
 					display: block;
 					margin: 0 auto;
 					max-width: 75%;
-				}
+				} */
 
 		@media screen and (max-width: 1280px) {
 
